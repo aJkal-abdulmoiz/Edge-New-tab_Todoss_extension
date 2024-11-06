@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Notes on New Tab",
+  "version": "1.0",
+  "description": "Shows a notes container with editable content on new tabs.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [],
+  "icons": {
+    "128": "icon.png"
+  }
+}
